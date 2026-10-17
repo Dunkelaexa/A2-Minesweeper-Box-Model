@@ -29,14 +29,29 @@
     color: #c1d08f;
 }
 
+body {
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 html {
     box-sizing: border-box;
     background-color: black;
-}   
+}
 
 header {
     background-color: #ea9d87;
     padding: 30px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 4px;
 }
 
 h1 {
@@ -56,6 +71,17 @@ footer {
     font-weight: bold;
     border-radius: 4px;
 }
+
+#container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#game-container {
+    margin: 50px;
+}
+
 #btn {
     display: flex;
     flex-direction: row;
